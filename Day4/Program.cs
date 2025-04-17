@@ -10,9 +10,14 @@ namespace Day4
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("안녕하세요!");
-
+            Console.WriteLine("안녕하세요!");
+            Console.WriteLine("안녕하세요!");
+            Console.WriteLine("안녕하세요!");
+            Console.WriteLine("안녕하세요!");
+            Console.WriteLine("안녕하세요!");
+            Console.WriteLine("안녕하세요!");
+            Console.WriteLine("안녕하세요!"); Console.WriteLine("안녕하세요!");
         }
     }
 }
