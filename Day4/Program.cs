@@ -11,7 +11,7 @@ namespace Day4
         static void Main(string[] args)
         {
 
-
+            Console.WriteLine("안녕하세요!");
 
         }
     }
