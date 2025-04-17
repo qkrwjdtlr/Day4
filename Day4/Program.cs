@@ -1,20 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Day4
+
+
+
+
+class RPGGame
 {
-    
-    class Program
+
+
+    static void Main()
     {
-        static void Main()
-        {
+        
 
-
-
-            Console.WriteLine("");
-
-
-
-        }
     }
 }
