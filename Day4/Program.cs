@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 
 
+
+
+
+
+
 class RPGGame
 {
+
     static void Main()
     {
-        Console.WriteLine("======================");
+        Console.WriteLine("ok!!!");
 
     }
 }
