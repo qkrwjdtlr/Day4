@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 
 class Item
 {
@@ -107,13 +106,13 @@ class RPGGame
         if (addchoice.ToLower() == "y")
         {
             Console.Write("아이템 이름: ");
-            string name = Console.ReadLine();
+            string newname = Console.ReadLine();
 
             bool exists = false;
 
             foreach(var item in inventory)
             {
-                if(item.Name== name)
+                if(item.Name== newname)
                 {
                     exists = true;
                     Console.WriteLine("이미 존재하는 아이템입니다");
@@ -124,21 +123,17 @@ class RPGGame
             if (!exists)
             {
                 Console.Write("아이템 개수: ");
-
-
-
+                int newCount = int.Parse(Console.ReadLine());
+                inventory.Add(new Item(newname, newCount));
+                Console.WriteLine($"{newname}이 인벤토리에 추가되었습니다!");
             }
-
-
-
-
         }
-        else if(addchoice.ToLower() == "n")
+        Console.WriteLine("==인벤토리==");
+        foreach (var item in inventory)
         {
-
+            item.DisPlay();
         }
 
-
-
+        Console.ReadLine();
     }
 }
